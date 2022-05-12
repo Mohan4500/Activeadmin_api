@@ -1,0 +1,11 @@
+current directory: /data/home/ubuntu/Desktop/nickcoin/nickcoingophase1v2-158847-ruby/template-app/vendor/bundle/ruby/2.6.0/gems/wdm-0.1.1/ext/wdm
+/usr/local/rbenv/versions/2.6.5/bin/ruby -I /usr/local/rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20220509-3857-1egoevv.rb extconf.rb
+
+current directory: /data/home/ubuntu/Desktop/nickcoin/nickcoingophase1v2-158847-ruby/template-app/vendor/bundle/ruby/2.6.0/gems/wdm-0.1.1/ext/wdm
+make "DESTDIR=" clean
+
+current directory: /data/home/ubuntu/Desktop/nickcoin/nickcoingophase1v2-158847-ruby/template-app/vendor/bundle/ruby/2.6.0/gems/wdm-0.1.1/ext/wdm
+make "DESTDIR="
+
+current directory: /data/home/ubuntu/Desktop/nickcoin/nickcoingophase1v2-158847-ruby/template-app/vendor/bundle/ruby/2.6.0/gems/wdm-0.1.1/ext/wdm
+make "DESTDIR=" install

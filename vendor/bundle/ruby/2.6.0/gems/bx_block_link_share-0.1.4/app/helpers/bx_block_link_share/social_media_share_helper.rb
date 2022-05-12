@@ -1,0 +1,2 @@
+module BxBlockLinkShare::SocialMediaShareHelper
+end
