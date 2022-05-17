@@ -18,6 +18,7 @@ end
 
 unless AdminUsers::Load.is_loaded_from_gem
   ActiveAdmin.register AdminUser do
+  role_changeable
     permit_params :email, :password, :password_confirmation
 
     index do
@@ -36,7 +37,7 @@ unless AdminUsers::Load.is_loaded_from_gem
     filter :created_at
 
     form do |f|
-      f.inputs do
+      f.inputs "User Details" do
         f.input :email
         f.input :password
         f.input :password_confirmation
